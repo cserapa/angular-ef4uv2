@@ -1,1 +1,65 @@
-<my-app>loading</my-app>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Erişim İşletme Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="dosya/css/style.css" />
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  </head>
+
+
+<body>
+ <img  class="logo1" src="dosya/res/telekom_logo.png" width="30%" > 
+
+  <div id="login_div" class="main-div">
+  <h1>Erişim İşletme</h1>
+  
+
+  <div class="inputBox">
+    <i  class="fas fa-user" aria-hidden="true"></i>
+    <input type="user" placeholder="Kullanıcı Adı" id="Kadi" value="serkan.apaydin"/>
+  </div>
+
+  <div class="inputBox">
+    <i class="fas fa-lock" aria-hidden="true"></i>
+    <!--  <input type="email" class="form-control" id="email" placeholder="E-posta">--> 
+    <input type="password" placeholder="Şifre" id="sifre" value="Cs135792468" />
+  </div>
+  
+    <input id="loginBtn" class="btn" type="button" name="" value="Giriş Yapın">
+  
+  <a href="=#">   Parolanımı unuttun?  </a>
+  
+</div>
+<!--
+<div id="user_div" class="loggedin-div">
+   <h3>Welcome User</h3>
+  <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+   <i  class="fas fa-user" aria-hidden="true"></i>
+   <button onclick="logout()">Logout</button></div>
+    </div>
+   
+-->
+
+<script src="dosya/js/fireBase.js"></script>
+<script src="dosya/js/login.js"></script>
+
+<!--
+<nav>
+  <ul>
+     <li><a href="sayfa1.html">İş Listesi</a></li>             
+     <li><a href="sayfa2.html">sayfa2</a></li>                
+     <li><a href="sayfa3.html">sayfa3</a></li>               
+     <li><a href="sayfa4.html">sayfa4</a></li>     
+     <li><a href="sayfa5.html">Ekip İş Listesi</a></li>     
+     <li><a href="sayfa6.html">Kayıt</a></li>                
+  </ul>
+</nav>
+-->
+
+</body>
+</html>
